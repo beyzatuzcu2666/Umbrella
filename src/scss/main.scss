@@ -1,0 +1,285 @@
+// reset
+@import "reset";
+
+@import '../font/stylesheet.css';
+
+
+
+body{
+    background-color: black;
+    font-family: 'Gravity';
+    font-weight: bold;
+
+}
+
+    .nav{
+        display: flex;
+    
+        
+       .umbrella-text{
+           display: flex;
+           color:#fff;
+           
+           font-size: 22px;
+           margin-top: 23px;
+           padding-right: 55pc;
+           margin-left: 23px;
+           padding-right: 44pc;
+           font-family: 'Gravity';
+           
+           .dart{
+               color:#e63946;
+           }
+       }
+       .menu{
+           display: flex;
+           justify-content: center;
+           
+       
+       ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 23px;
+        
+
+           li{
+               color:white;
+               padding-left: 25px;
+               margin-left: auto;
+               align-items: center;
+               margin-top: -10px;
+               background-color:black;
+               background-color:black;
+               transition:background 2s;
+            a{ 
+                color: white;
+                &:active{
+                    color:#e63946;
+                }
+                &:hover{
+                   
+                   color:#e63946 ;
+                }
+               
+               text-decoration: none;
+               }
+               }
+              
+            
+               
+               
+               
+               
+           }
+       }
+    
+    .fa-bars{
+        color: white;
+        font-size: 23px;
+        position: absolute;
+        right: 45px;
+        top: 20px;
+
+        
+        
+    }
+    }
+.contact-screen{
+    width: 40%;
+    background-color: rgba($color: #635e5e, $alpha: 0.4);
+    height: 0;
+    justify-content: right;
+    bottom:0;
+    right: 0;
+    position: absolute;
+    transition: height 1s;
+    
+
+    
+    .social-platform{
+        position: relative;
+        top:153px;
+    .facebook{
+        font-weight: 800;
+        color: white;
+        padding-left: 25px;
+        padding-bottom: 12px;
+        
+    }
+    .number{
+        color: #e63946;
+        font-size: 33px;
+        padding-left: 28px;
+        padding-bottom: 12px;
+
+    }
+    p{
+        color: #fff;
+        padding-left: 28px;
+        padding-bottom: 72px;
+    }
+    h3{
+        font-size: 30px;
+        color: #fff;
+        text-align: left;
+        padding-left: 28px;
+    }
+    ul{
+        font-size: 20px;
+        color: #fff;
+        font-weight: 200;
+        border-left: 5px;   
+        justify-content: center;
+        padding-left: 23px;
+        
+        list-style-type: none;
+        padding: 10px;
+
+        li{
+        margin : 15px;
+        border-bottom :2px solid gray;
+        padding-bottom: 15px;
+
+        }
+    }
+    
+}
+.send{
+    width: 70px; /* Genişlik */
+    height: 0px; /* Yükseklik */
+    margin-top: 52px;
+    margin-left: 12px;
+
+    transform: rotate(90deg);
+    color:#e63946;
+
+}
+
+}
+
+section{
+.option{
+   
+    ul{
+        width: 200px; /* Genişlik */
+        height: 100px; /* Yükseklik */
+        margin-top: 72px;
+    
+        transform: rotate(90deg);
+        li{
+            color: white;
+            float:left; 
+            font-size:16px; 
+            padding-left: 23px;
+            padding-top: 110px;
+            padding-bottom: 23px;
+            background-color:black;
+            transition:background 2s;
+            a{ 
+                color: white;
+                &:active{
+                    color:#e63946;
+                }
+                &:hover{
+                   
+                   color:#e63946 ;
+                }
+               
+               text-decoration: none;
+               }
+           
+            
+            
+
+        
+        }
+    }
+}
+}
+.active{
+    color: #e63946!important;
+}
+.home{
+    .start-Text{
+    color: white;
+    text-align: center;
+    font-size: 120px;
+    margin-top: 67px;
+    color:#e63946;
+    
+    .experience-Text{
+        color: white;
+        font-size: 15px;
+        text-align: right;
+        padding-right: 23px;
+    
+        margin-top: -74px;
+
+
+    }
+}
+
+}
+.supermodels-Text{
+    color: #fff;
+    margin-top: 78px;
+    font-size: 23px;
+    padding-left: 28px;
+}
+
+.blog-text{
+    color: #fff;
+    padding-left: 28px;
+    font-size: 15px;
+    margin-top: 200px;
+    position: fixed;
+    bottom: 5px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    
+  
+
+    .info-text{
+        color: #fff;
+        text-align: center;
+        font-size: 15px;
+        position: fixed;
+        bottom: 5px;
+        left: 0px;
+        width: 100%;
+        height: 50px;
+     
+        
+        
+        
+    }
+
+    
+}
+
+.about-screen{
+    width: 0;
+    background-color: rgba($color: #635e5e, $alpha: 0.4);
+    height: 100%;
+    justify-content: right;
+    bottom:0;
+    right: 0;
+    position: absolute;
+    transition: width 1s;
+  
+
+    ul{
+        position: relative;
+        padding-left: 115px;
+        padding-top: 153px;
+    
+        li{
+            color: white;
+            font-size: 50px;
+            padding-bottom: 10px;
+
+        }
+    }
+}
